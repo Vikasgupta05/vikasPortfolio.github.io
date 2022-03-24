@@ -4,8 +4,8 @@ import Row from "react-bootstrap/Row"
 const ContactMe = ({ mobile, social }) => {
     return (
         <>
-            <a href={social.gmail} style={{textDecoration:"none"}}><h1>Need a developer?</h1></a>
-            <Row style={{marginTop:"30px",marginBottom:"40px"}}>
+            <div id="Contact"> <h1 className="display-4 pb-5 text-center" style={{textAlign:"center",gap:"1.5rem",marginTop:"100px"}} >Contact</h1>  </div>
+            <Row style={{marginTop:"60px",marginBottom:"40px",marginLeft:"80px"}}>
                 <Col>
                     <h3>Call me</h3>
                     <p style={{fontSize:"1.5rem"}}>{mobile}</p>

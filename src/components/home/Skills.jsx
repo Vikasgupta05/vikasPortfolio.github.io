@@ -25,30 +25,10 @@ function Skills({ heading, hardSkills, softSkills }) {
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
-        <Tabs
-          className="skills-tabs"
-          defaultActiveKey="hard-skills"
-          id="skills-tabs"
-        >
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="hard-skills"
-            title="Technical Skills"
-          >
-            <Row className="pt-3 px-1" style={{justifyContent:"center",gap:"1.5rem"}}>
-              <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
-          <Tab
-            tabClassName="skills-tab lead"
-            eventKey="soft-skills"
-            title="Soft Skills"
-          >
-            <Row className="pt-3 px-1">
-              <SkillsGraphTab skills={softSkills} isScrolled={isScrolled} />
-            </Row>
-          </Tab>
-        </Tabs>
+        
+        <Row className="pt-3 px-1" style={{justifyContent:"center",gap:"1.5rem"}}>
+          <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
+        </Row>
       </Container>
     </Jumbotron>
   );

@@ -59,7 +59,7 @@ const about = {
   image: `${window.location.origin}/images/shivam1.jpg`,
   imageSize: 375,
   message:
-    "I'm a software engineer who is passionate about making contributing to open-source more approachable, creating efficient application to solve people problem, and building community to solve tech related doubt and solve programming problems. Some technologies I enjoy working with include NodeJs, Express as Backend , MongoDB, ReactJs, Javascript, HTML, CSS, as Frontend.",
+    "Full-stack web developer with hands-on experience in developing applications and solutions with diverse tech-stacks. A creative problem solver and an efficient team player. Seeking a role as a developer to build user-centric products in a challenging work environment.",
   resume:
     "https://drive.google.com/file/d/1ITdsT5x0N2IX_zzwhkKyfxIMk6N87ExJ/view?usp=sharing"
 };

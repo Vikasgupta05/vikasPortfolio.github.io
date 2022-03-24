@@ -64,6 +64,12 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
+      {contactMe.show && (
+        <ContactMe
+          mobile={contactMe.mobile}
+          social={contactMe.social}
+        />
+      )}
     </>
   );
 });

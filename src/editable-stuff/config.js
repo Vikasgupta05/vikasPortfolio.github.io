@@ -111,16 +111,6 @@ const skills = {
     { name: "React", link: {href:"https://reactjs.org/",img:"https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"} },
     { name: "HTML", link: {href:"https://www.w3.org/html/",img:"https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"} },
   ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Time Management", value: 80 },
-    { name: "Creativity", value: 90 }
-  ]
 };
 
 // GET IN TOUCH SECTION

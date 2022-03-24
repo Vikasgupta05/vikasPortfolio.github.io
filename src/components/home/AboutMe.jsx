@@ -48,7 +48,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume,image }) => {
 
           <div className={`col-lg-7`}>
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
-            <p className="lead text-center">{message}</p>
+            <p className="lead text-center" style={{"fontSize": "large"}}>{message}</p>
             {resume && (
               <p className="lead text-center">
                 <a
@@ -59,7 +59,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume,image }) => {
                   role="button"
                   aria-label="Resume/CV"
                 >
-                  Resume
+                  Resume 
                 </a>
               </p>
             )}

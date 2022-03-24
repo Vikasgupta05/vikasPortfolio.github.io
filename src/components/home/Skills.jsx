@@ -26,7 +26,7 @@ function Skills({ heading, hardSkills, softSkills }) {
           {heading}
         </h2>
         
-        <Row className="pt-3 px-1" style={{justifyContent:"center",gap:"1.5rem"}}>
+        <Row className="pt-3 px-1" style={{justifyContent:"space-between",gap:"1.5rem"}}>
           <SkillsTab skills={hardSkills} isScrolled={isScrolled} />
         </Row>
       </Container>

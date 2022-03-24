@@ -22,7 +22,7 @@ const MainBody = React.forwardRef(
             {title}
           </h1>
           <Typist className="lead typist" cursor={{show:false}}>
-            <h1>Full Stack Developer</h1>
+            <h1>Full Stack Web Developer</h1>
           </Typist>
           <Typist className="lead typist" cursor={{ show: false }}>
             {" "}

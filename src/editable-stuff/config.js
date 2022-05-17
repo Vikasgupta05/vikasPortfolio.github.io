@@ -71,7 +71,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "Noddy952001",
   reposLength: 2,
-  specificRepos: [{link:"Noddy952001/NINEWEST",img:require("../assets/ninewest.png")},{link:"Anands-88/Kfc-Project",img:require("../assets/kfc.png")}]
+  specificRepos: [{link:"Noddy952001/NINEWEST",img:require("../assets/ninewest.png")},{link:"Anands-88/Kfc-Project",img:require("../assets/kfc.png")},{link:"Noddy952001/Mailchimp_clone",img:require("../assets/mailcheim.png")}]
 };
 
 // Leadership SECTION

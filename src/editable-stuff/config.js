@@ -70,13 +70,16 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "Noddy952001",
-  reposLength: 4,
+  reposLength: 5,
   specificRepos: 
   [
+    
     {link:"Noddy952001/NINEWEST",img:require("../assets/ninewest.png")},
     {link:"Anands-88/Kfc-Project",img:require("../assets/kfc.png")},
     {link:"Noddy952001/weather-report",img:require("../assets/weather.png")},
-    {link:"Noddy952001/Mailchimp_clone",img:require("../assets/mailcheim.png")}
+    {link:"Noddy952001/Mailchimp_clone",img:require("../assets/mailcheim.png")},
+    {link:"Noddy952001/Chat-app",img:require("../assets/chat.png")}
+
   ]
 };
 

@@ -137,7 +137,7 @@ const contactMe = {
   mobile: "7818034116",
   social: {
     gmail:"vikasnwrdr2001@gmail.com",
-    github:"https://github.com/Noddy952001",
+    github:"https://github.com/Vikasgupta05",
     linkedin:"https://www.linkedin.com/in/vikas-gupta-1493651b5/",
     twitter:"https://twitter.com/Vikas_Gupta09/"
   }
